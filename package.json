@@ -1,0 +1,29 @@
+{
+  "name": "upgrade-test-4",
+  "version": "1.0.0",
+  "description": "\"# upgrade-test-4\"",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "build": "electron-builder build --mac --win --publish never",
+	"deploy": "electron-builder build --mac --win --publish always"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Occxy/upgrade-test-4.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Occxy/upgrade-test-4/issues"
+  },
+  "homepage": "https://github.com/Occxy/upgrade-test-4#readme",
+  "devDependencies": {
+    "electron": "^10.1.2",
+    "electron-builder": "^22.8.1"
+  },
+  "dependencies": {
+    "electron-updater": "^4.3.5"
+  }
+}
