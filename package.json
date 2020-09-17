@@ -1,6 +1,6 @@
 {
   "name": "upgrade-test-4",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "\"# upgrade-test-4\"",
   "main": "main.js",
   "scripts": {
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Occxy/upgrade-test-4.git"
+    "url": "https://github.com/Occxy/upgrade-test-4.git"
   },
   "author": "",
   "license": "ISC",
